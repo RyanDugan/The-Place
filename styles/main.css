@@ -10,11 +10,14 @@ footer {
     text-decoration: none;
     background-color: #150300;
     font-size: 13px;
-    padding: 15px;
+    padding: 15px 100px 30px 100px;
 }
 footer a {
     color: white;
     text-decoration: none;
+    font-size: 13px;
+}
+footer p {
     font-size: 13px;
 }
 h1 {
@@ -23,6 +26,7 @@ h1 {
 h2 {
     margin: 0;
 }
+
 li {
     float:right;
 }
@@ -79,6 +83,11 @@ ul {
     vertical-align: top;
     padding-top: 40px;
 }
+.leftfoot {
+    float: left;
+    padding:0;
+    margin: 0;
+}
 .right {
     display: inline-block;
     width: 45%;
@@ -89,6 +98,11 @@ ul {
     text-transform: uppercase;
     text-decoration: underline;
     font-weight: bold;
+}
+.rightfoot {
+    float: right;
+    padding: 0;
+    margin: 0;
 }
 .star {
     margin: 0;
