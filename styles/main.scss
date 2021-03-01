@@ -1,4 +1,154 @@
 @import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+
+
+a:hover {
+    color: goldenrod;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    color: white;
+    text-decoration: none;
+    background-color: #150300;
+    font-size: 13px;
+    padding: 15px 100px 30px 100px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+footer p {
+    font-size: 13px;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+
+li {
+    float:right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+main {
+    padding: 60px 0px 40px 0px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+p {
+    font-size: 18px;
+    padding: 0px 50px;
+    margin: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: #150300;
+}
+
+/* ~ classes below here ~ */
+
+.about a {
+    color: goldenrod;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.active {
+    text-decoration-line: underline;
+}
+.center {
+    text-align: center;
+}
+.discover {
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    color: goldenrod;
+}
+.left {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 40px;
+}
+.leftfoot {
+    float: left;
+    padding:0;
+    margin: 0;
+}
+.right {
+    display: inline-block;
+    width: 45%;
+    /* padding: 60px 0px; */
+}
+.navleft {
+    float: left;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.rightfoot {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.star {
+    margin: 0;
+}
+.story {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Medium screens and up
 @media (min-width: 768px) {
