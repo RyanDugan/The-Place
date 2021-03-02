@@ -13,14 +13,14 @@ body {
     font-size: 24px;
 }
 footer {
-    color: white;
+    color:$light-font;
     text-decoration: none;
-    background-color: #150300;
+    background-color: $darker-background;
     font-size: 13px;
     padding: 15px 100px 30px 100px;
 }
 footer a {
-    color: white;
+    color:$light-font;
     text-decoration: none;
     font-size: 12px;
 }
@@ -39,7 +39,7 @@ li {
 }
 li a {
     display: block;
-    color: white;
+    color:$light-font;
     text-align: center;
     padding: 15px;
     text-decoration: none;
@@ -49,7 +49,7 @@ main {
     padding: 60px 0px 40px 0px;
 }
 nav a {
-    color: white;
+    color: $light-font;
     text-decoration: none;
 }
 p {
