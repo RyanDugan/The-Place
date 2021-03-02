@@ -1,0 +1,6 @@
+@mixin heading {
+    color: $secondary-color;
+    font-size: 48px;
+    font-family: $heading;
+    font-weight: normal;
+}
