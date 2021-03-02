@@ -5,11 +5,11 @@
 
 
 a:hover {
-    color: goldenrod;
+    color:$secondary-color;
 }
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $title;
 }
 footer {
     color: white;
