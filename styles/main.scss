@@ -84,10 +84,8 @@ p {
     text-align: center;
 }
 .discover {
-    font-family: $heading;
-    font-size: 48px;
-    font-weight: normal;
-    color:$secondary-color;
+   @include heading;
+   font-weight: normal;
 }
 .left {
     display: inline-block;
